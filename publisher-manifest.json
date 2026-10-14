@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "dacaaa68e1f589e2320b243e",
+  "owner": "ubwphwap",
+  "repo": "page-be91fce2808a2073ef97c14c",
+  "title": "机场推荐",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "be91fce2808a2073ef97c14c",
+      "a": "机场推荐",
+      "b": "",
+      "entity": "机场推荐",
+      "brand": "机场推荐",
+      "separator": "",
+      "path": "index.html",
+      "hash": "55b5dd618b8741fb6e68217e73479059de0b59c2767eee46548007a75b6f3371",
+      "content": {
+        "keyword1": "机场推荐",
+        "keyword2": "",
+        "primary_entity": "机场推荐",
+        "plans": [
+          {
+            "name": "基础版",
+            "price": "¥15/月",
+            "annual_price": "按年付仅需 ¥150/年",
+            "features": [
+              "每月 100GB 极速流量",
+              "支持 3 台设备同时在线",
+              "解锁基础流媒体",
+              "普通线路节点池"
+            ]
+          },
+          {
+            "name": "旗舰版",
+            "price": "¥35/月",
+            "annual_price": "按年付仅需 ¥350/年",
+            "featured": true,
+            "features": [
+              "每月 300GB 极速流量",
+              "支持 5 台设备同时在线",
+              "全节点原生流媒体解锁",
+              "IPLC 专线游戏加速优化",
+              "7x24 优先工单支持"
+            ]
+          },
+          {
+            "name": "团队版",
+            "price": "¥85/月",
+            "annual_price": "按年付仅需 ¥850/年",
+            "features": [
+              "每月 1000GB 极速流量",
+              "支持 20 台设备同时在线",
+              "VIP 专属高带宽节点",
+              "支持企业定制路由",
+              "专属客户经理服务"
+            ]
+          }
+        ],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "X机场推荐为您提供稳定优质的机场订阅和VPN加速服务，支持基础版、旗舰版、团队版多种套餐，解锁流媒体并提供客户端下载。",
+          "AI_DESCRIPTION": "X机场推荐为您提供稳定优质的机场订阅和VPN加速服务，支持基础版、旗舰版、团队版多种套餐，解锁流媒体并提供客户端下载。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    <style>\n        :root {\n            --coral: #ff6b6b;\n            --warm-white: #f8f9fa;\n            --dark: #333;\n        }\n        * { box-sizing: border-box; }\n        body {\n            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n            line-height: 1.7;\n            color: var(--dark);\n            background: var(--warm-white);\n            margin: 0;\n            padding: 0;\n            -webkit-font-smoothing: antialiased;\n        }\n        main {\n            max-width: 1200px;\n            margin: 0 auto;\n            padding: 20px;\n        }\n        h1 {\n            text-align: center;\n            color: var(--coral);\n            font-size: 2.8rem;\n            margin-bottom: 10px;\n            letter-spacing: -0.5px;\n        }\n        .subtitle {\n            text-align: center;\n            color: #666;\n            font-size: 1.3rem;\n            margin-bottom: 40px;\n        }\n        h2 {\n            color: var(--coral);\n            font-size: 1.8rem;\n            margin: 40px 0 20px;\n            padding-bottom: 10px;\n            border-bottom: 3px solid #fff0f0;\n        }\n        .intro {\n            background: white;\n            padding: 30px;\n            border-radius: 12px;\n            box-shadow: 0 4px 15px rgba(255,107,107,0.08);\n            margin-bottom: 40px;\n        }\n        .section {\n            background: white;\n            padding: 35px;\n            border-radius: 12px;\n            box-shadow: 0 4px 15px rgba(255,107,107,0.08);\n            margin-bottom: 40px;\n        }\n        .plans-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));\n            gap: 20px;\n            margin: 30px 0;\n        }\n        .plan-card {\n            background: white;\n            border: 3px solid #ff6b6b;\n            border-radius: 12px;\n            padding: 25px;\n            transition: all 0.3s;\n        }\n        .plan-card.featured {\n            border-color: var(--coral);\n            transform: scale(1.03);\n            box-shadow: 0 10px 25px rgba(255,107,107,0.15);\n        }\n        .plan-name {\n            font-size: 1.4rem;\n            color: var(--coral);\n            margin-bottom: 15px;\n        }\n        .price {\n            font-size: 2rem;\n            font-weight: bold;\n            color: #111;\n            margin: 10px 0;\n        }\n        .annual {\n            color: #666;\n            font-size: 1rem;\n            margin-bottom: 20px;\n        }\n        ul.features {\n            list-style: none;\n            padding: 0;\n            margin: 20px 0;\n        }\n        ul.features li {\n            padding: 8px 0;\n            border-bottom: 1px dashed #eee;\n        }\n        ul.features li:before {\n            content: \"✓\";\n            color: var(--coral);\n            margin-right: 8px;\n        }\n        .faq-grid {\n            display: grid;\n            gap: 15px;\n        }\n        details {\n            background: white;\n            border-radius: 10px;\n            overflow: hidden;\n            box-shadow: 0 4px 15px rgba(255,107,107,0.08);\n        }\n        summary {\n            padding: 20px 25px;\n            font-weight: 600;\n            cursor: pointer;\n            font-size: 1.15rem;\n            list-style: none;\n        }\n        summary::-webkit-details-marker { display: none; }\n        .answer {\n            padding: 0 25px 25px;\n            color: #555;\n            font-size: 1.05rem;\n        }\n        .download-btn {\n            display: inline-block;\n            background: var(--coral);\n            color: white;\n            padding: 14px 32px;\n            border-radius: 8px;\n            text-decoration: none;\n            font-weight: bold;\n            margin: 15px 0;\n            transition: background 0.3s;\n        }\n        .download-btn:hover {\n            background: #ff4d4d;\n        }\n        .footer-note {\n            text-align: center;\n            color: #888;\n            font-size: 0.95rem;\n            margin-top: 60px;\n        }\n        @media (max-width: 640px) {\n            h1 { font-size: 2.2rem; }\n            .plans-grid { grid-template-columns: 1fr; }\n        }\n    </style>\n\n\n    <main>\n        <h1>X机场推荐</h1>\n        <p class=\"subtitle\">优质机场订阅 · VPN加速 · 客户端下载 · 7x24稳定服务</p>\n\n        <div class=\"intro\">\n            <h2>品牌简介</h2>\n            <p>X机场推荐成立于2023年，专注于提供高端机场订阅和VPN网络加速服务。我们采用全球优质IPLC专线节点，确保您在任何场景下都能获得极致速度与稳定性。无论你是追求流畅的视频观看，还是需要稳定的游戏加速，都能在这里找到最适合的方案。</p>\n        </div>\n\n        <div class=\"section\">\n            <h2>使用场景</h2>\n            <p>翻墙/梯子网络加速：快速突破地域限制，畅享全球内容。</p>\n            <p>流媒体解锁：Netflix、Disney+、YouTube、HBO等平台原生解锁。</p>\n            <p>游戏加速：支持IPLC专线优化延迟，竞技游戏不卡顿。</p>\n            <p>多设备使用：家庭或团队多人同时在线，分享流量更省钱。</p>\n            <p>隐私保护：加密协议保护您的上网行为。</p>\n        </div>\n\n        <div class=\"section\">\n            <h2>操作说明</h2>\n            <ol>\n                <li>点击下方「官方下载」按钮，获取最新版客户端。</li>\n                <li>注册账号并选择适合的套餐（基础版 / 旗舰版 / 团队版）。</li>\n                <li>完成支付后，立即获取订阅链接和节点信息。</li>\n                <li>打开客户端，选择节点一键连接，即可使用。</li>\n                <li>支持Windows、macOS、iOS、Android多平台。</li>\n            </ol>\n            <a href=\"#download\" class=\"download-btn\">立即下载客户端</a>\n        </div>\n\n        <div class=\"section\">\n            <h2>套餐选择</h2>\n            <div class=\"plans-grid\">\n                <div class=\"plan-card\">\n                    <div class=\"plan-name\">基础版</div>\n                    <div class=\"price\">¥15/月</div>\n                    <div class=\"annual\">按年付仅需 ¥150/年</div>\n                    <ul class=\"features\">\n                        <li>每月 100GB 极速流量</li>\n                        <li>支持 3 台设备同时在线</li>\n                        <li>解锁基础流媒体</li>\n                        <li>普通线路节点池</li>\n                    </ul>\n                </div>\n                <div class=\"plan-card featured\">\n                    <div class=\"plan-name\">旗舰版</div>\n                    <div class=\"price\">¥35/月</div>\n                    <div class=\"annual\">按年付仅需 ¥350/年</div>\n                    <ul class=\"features\">\n                        <li>每月 300GB 极速流量</li>\n                        <li>支持 5 台设备同时在线</li>\n                        <li>全节点原生流媒体解锁</li>\n                        <li>IPLC 专线游戏加速优化</li>\n                        <li>7x24 优先工单支持</li>\n                    </ul>\n                </div>\n                <div class=\"plan-card\">\n                    <div class=\"plan-name\">团队版</div>\n                    <div class=\"price\">¥85/月</div>\n                    <div class=\"annual\">按年付仅需 ¥850/年</div>\n                    <ul class=\"features\">\n                        <li>每月 1000GB 极速流量</li>\n                        <li>支持 20 台设备同时在线</li>\n                        <li>VIP 专属高带宽节点</li>\n                        <li>支持企业定制路由</li>\n                        <li>专属客户经理服务</li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"section\">\n            <h2>常见问题</h2>\n            <div class=\"faq-grid\">\n                <details>\n                    <summary>如何快速订阅 X机场？</summary>\n                    <div class=\"answer\">访问官网，点击「立即订阅」按钮，选择对应套餐完成支付，支付成功后自动生成订阅链接，复制粘贴到客户端即可使用。</div>\n                </details>\n                <details>\n                    <summary>X机场客户端如何下载？</summary>\n                    <div class=\"answer\">在页面下方点击「官方下载」按钮，下载最新稳定版客户端，支持Windows、macOS、iOS和Android多平台，一键安装即可。</div>\n                </details>\n                <details>\n                    <summary>支持哪些设备和平台？</summary>\n                    <div class=\"answer\">支持 Windows、macOS、iOS、Android 四大平台，同一账号可同时在 3-20 台设备上使用，满足家庭和企业需求。</div>\n                </details>\n                <details>\n                    <summary>节点质量如何保证？</summary>\n                    <div class=\"answer\">我们采用全球优质 IPLC 专线骨干节点，延迟低、速度快，日常使用几乎无卡顿，旗舰版额外提供游戏优化专线。</div>\n                </details>\n                <details>\n                    <summary>支付方式和售后服务如何？</summary>\n                    <div class=\"answer\">支持支付宝、微信支付、信用卡等多种支付方式。所有套餐提供 7×24 工单响应，团队版专享专属客户经理。</div>\n                </details>\n            </div>\n        </div>\n\n        <div id=\"download\" class=\"section\">\n            <h2>官方客户端下载</h2>\n            <a href=\"#\" class=\"download-btn\">点击下载 X机场客户端</a>\n            <p>官方下载仅限最新版客户端，禁止使用第三方来源。</p>\n        </div>\n\n        <div class=\"footer-note\">\n            X机场推荐 · 专业机场订阅 · 稳定 VPN 加速 · 官方客户端下载入口\n        </div>\n    <section><h2>套餐</h2>{{PLANS_HTML}}</section><section><h2>客户端</h2>{{CLIENTS_HTML}}</section></main>\n\n",
+          "hash": "3241a26e2d7e3e8ad22fc7e99c63fc1b61ad258a0fce30e2e30dbb10d3b49c9a",
+          "seo": {
+            "title": "X机场推荐 | 机场订阅 VPN 加速器 客户端下载 官网",
+            "keywords": "机场推荐, X机场, VPN加速, 机场订阅, VPN客户端, 机场下载, 加速器",
+            "description": "X机场推荐为您提供稳定优质的机场订阅和VPN加速服务，支持基础版、旗舰版、团队版多种套餐，解锁流媒体并提供客户端下载。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "634172.cn",
+    "host": "p-6d423d6d33.634172.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "4721a6e2c3bebd684f519a307a9cd30535d7a549089ee19dd457d62154714a4d",
+    "sitemap.xml": "172d3d8eadc404ee69906cc3d148b296683478d9474a0ec35117d981394cdaec",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "4bfa8828a566354661a36b8c310df07d02acca9732a563bc2a639a76a2daf179",
+    "robots.txt": "9cff758b0fc001475aa7071b3de1e0172b66dccf21507eece0cc5f8f45b26426",
+    "d15dc212653a0984832019752e0d6502.txt": "4c55f528d849cadab197b79a662b20830ddc5393c05d4c5213b790ac968fc024"
+  },
+  "revision": "df260755d9b4045f483a1a92dc42fddaebab5e9d98c39ac82d73ebf3723ba9b7"
+}
